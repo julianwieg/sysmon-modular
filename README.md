@@ -1,12 +1,12 @@
 # sysmon-modular | A Sysmon configuration repository for everybody to customise
 
 [![license](https://img.shields.io/github/license/olafhartong/sysmon-modular.svg?style=flat-square)](https://github.com/olafhartong/sysmon-modular/blob/master/license.md)
-![Maintenance](https://img.shields.io/maintenance/yes/2018.svg?style=flat-square)
+![Maintenance](https://img.shields.io/maintenance/yes/2019.svg?style=flat-square)
 [![GitHub last commit](https://img.shields.io/github/last-commit/olafhartong/sysmon-modular.svg?style=flat-square)](https://github.com/olafhartong/sysmon-modular/commit/master)
 
 This is a Microsoft Sysinternals Sysmon configuration repository, set up modular for easier maintenance and generation of specific configs.
 
-## NOTICE; Sysmon 8.02 is not compatible with this configuration. Please use Sysmon 8.0. Weblog with reasoning will follow soon
+## NOTICE; Sysmon 8.02 is not compatible with this configuration, it will cause severe blind spots in your logging. Please use Sysmon 8.0 or 8.0.4
 
 **Note:**
 I do recommend using a minimal number of configurations within your environment for multiple obvious reasons, like; maintenance, output equality, manageability and so on.
